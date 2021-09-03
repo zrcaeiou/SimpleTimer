@@ -1,6 +1,6 @@
 import tkinter
 import time
-#Gloable Var
+#Gloable Variable
 root = tkinter.Tk()
 root.title('时钟')
 targetTime=time.mktime(time.strptime("19 54 27 8 2021","%H %M %d %m %Y"))
